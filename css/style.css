@@ -43,7 +43,7 @@ button{
     border:none;
     display:inline-block;
     float:left;
-    border-radius:6px;
+    border-radius:7px;
     position:relative;
     border: solid 5px #eee;
 }
@@ -70,7 +70,7 @@ button:focus{
     font-size:1.4em;
     transition: all 300ms;
     color: #53C8D5;
-    width:292px;
+    width:290px;
     display:block;
     margin:auto;
     position:absolute;
