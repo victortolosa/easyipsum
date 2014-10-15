@@ -9,12 +9,8 @@ body, html {
     min-height:450px;
     background-color:#eee;
 }
-h1{
-    text-align:center;
-}
+
 body{
-    margin: auto;
-    display:block;
     overflow:hidden;
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -24,6 +20,14 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+h1{
+    position:absolute;
+    visibility: hidden;
+}
+p {
+    position:absolute;
+    visibility: hidden; 
 }
 .wrap{
     height:450px;
@@ -57,6 +61,7 @@ button.zeroclipboard-is-hover {
 button:focus{
     outline:none;
 }
+
 #copy-button{
     height:80px;
     background-color:#fff;
