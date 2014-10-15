@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/lorem.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="css/style.css"  rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Easy Ipsum</title>
+        <meta name="description" content="Lorem Ipsum generator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div id="lorem"></div>
+        <div class="wrap">
+        <button class="word" onclick="javascript:getIpsum('1w');" data-meta="One Word"></button>
+        <button class="word" onclick="javascript:getIpsum('2w');" data-meta="Two Words"></button>
+        <button class="word" onclick="javascript:getIpsum('3w');" data-meta="Three Words"></button>
+        <button class="word" onclick="javascript:getIpsum('4w');" data-meta="Four Words"></button>
+        <button class="sentence" onclick="javascript:getIpsum('1s');" data-meta="One Sentence "></button>
+        <button class="sentence" onclick="javascript:getIpsum('2s');" data-meta="Two Sentence"></button>
+        <button class="sentence" onclick="javascript:getIpsum('3s');" data-meta="Three Sentence"></button>
+        <button class="sentence" onclick="javascript:getIpsum('4s');" data-meta="Four Sentences"></button>
+        <button class="paragraph" onclick="javascript:getIpsum('1p');" data-meta="One Paragraph"></button>
+        <button class="paragraph" onclick="javascript:getIpsum('2p');" data-meta="Two Paragraphs"></button>
+        <button class="paragraph" onclick="javascript:getIpsum('3p');" data-meta="Three Paragraphs"></button>
+        <button class="paragraph" onclick="javascript:getIpsum('4p');" data-meta="Four Paragraphs"></button>
+        <button id="copy-button" data-meta="to Clipboard">Copy to Clipboard</button>
+        </div>
+        <script src="js/ZeroClipboard.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
